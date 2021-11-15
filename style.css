@@ -1,0 +1,62 @@
+body{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    position: relative;
+    background-image:linear-gradient(#e27171,#8ee7c4);
+    background-image: url(https://wallpaperaccess.com/full/2089149.jpg);
+    height: 48rem;
+    width: 100%;
+    display: block;
+    left:0px;
+
+}
+.heder
+{
+    height: 60px;
+    width:100%;
+    background-image:linear-gradient(rgb(61, 238, 45),rgb(245, 106, 215)) ;
+    border-bottom:2px solid rgb(151, 75, 223) ;
+    padding-top: 50px;
+    font-size: 40px;
+    color:rgb(126, 11, 11);
+    font-weight: 800;
+    text-shadow: #0fcbec;
+}
+
+.btn{
+    position:absolute;
+    top:45px;
+    right:20px;
+}
+
+button{
+    color:rgb(88, 11, 11);
+    height:35px;
+    width:100px;
+    border-radius: 20px;
+    background-image: linear-gradient(#4af0ab,#d9eb37)
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+}
+.table
+{
+    width:800px;
+}
+table{
+    color:rgb(8, 8, 8);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+}
+table tr :hover{
+    background-color:#3ce4c8;
+}
